@@ -38,7 +38,7 @@ console.log(err)
             
             onChange={(e)=>setPassword(e.target.value)} />
     </div>
-    <button className="btn-new" onClick={()=>handelLogin({email,password})} >login  Account</button>
+    <button type="button"   className="btn-new" onClick={()=>handelLogin({email,password})} >login  Account</button>
   </form>
 </div>
   )
